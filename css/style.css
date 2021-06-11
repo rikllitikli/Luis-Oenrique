@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bg-light {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background: none !important; }
+  @media screen and (max-width: 992px) {
+    .bg-light {
+      background-color: #f8f9fa !important; } }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.nav-link {
+  font-size: 16px;
+  color: #4d4d4d; }
+
+.nav-link:after, .nav-link:hover:after {
+  content: "";
+  display: block;
+  background-color: transparent;
+  height: 2px;
+  width: 100%;
+  margin-top: 8px; }
+
+.nav-link:hover:after {
+  background-color: #878787;
+  transition: 0.3s; }
+
+.back {
+  background-image: url("../img/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 750px;
+  width: 100%; }
+  .back h1 {
+    padding-top: 261px;
+    margin-bottom: 22px;
+    font-size: 90px;
+    color: #4d4d4d; }
+    @media screen and (max-width: 514px) {
+      .back h1 {
+        font-size: 60px; } }
+  .back h3 {
+    color: #4d4d4d;
+    font-size: 22px;
+    margin-bottom: 52px; }
+  .back a {
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #4d4d4d; }
+    @media screen and (max-width: 514px) {
+      .back a {
+        display: block;
+        margin-bottom: 10px; } }
+
+.about h2 {
+  padding-top: 178px;
+  color: #4d4d4d;
+  font-size: 46px;
+  max-width: 332px;
+  line-height: 49px;
+  margin-bottom: 15px; }
+.about h2:before {
+  content: "";
+  display: block;
+  background-color: #767676;
+  width: 60px;
+  height: 4px;
+  margin-bottom: 21px; }
+.about p {
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 39px; }
+.about a {
+  padding: 19px 47px;
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: bold; }
+.about img {
+  padding-top: 109px;
+  width: 100%;
+  padding-bottom: 124px; }
+
+.service {
+  background-color: #f6f6f6;
+  padding: 119px 0 148px;
+  margin-bottom: 117px; }
+  .service h2 {
+    color: #4d4d4d;
+    font-size: 46px;
+    line-height: 49px;
+    margin-bottom: 62px; }
+  .service h2:before {
+    content: "";
+    display: block;
+    border-top: solid 4px #767676;
+    width: 60px;
+    margin: auto;
+    padding-bottom: 21px; }
+  .service img {
+    margin-bottom: 15px; }
+  .service p {
+    font-size: 24px;
+    font-weight: bold; }
+
+.service div div div:nth-last-child(5) {
+  position: relative;
+  top: 16px;
+  margin-bottom: 80px; }
+
+.service div div div:nth-last-child(4) {
+  position: relative;
+  top: 4px; }
+
+.service div div div:nth-last-child(3) {
+  position: relative;
+  top: 11px;
+  line-height: 30px; }
+
+.service div div div:nth-last-child(1) {
+  position: relative;
+  top: 4px; }
+
+/*# sourceMappingURL=style.css.map */
