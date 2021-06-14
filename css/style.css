@@ -59,6 +59,11 @@
       .back a {
         display: block;
         margin-bottom: 10px; } }
+  .back a:nth-last-child(2):hover {
+    -webkit-box-shadow: 15px 10px 25px -15px rgba(48, 52, 54, 0.54);
+    -moz-box-shadow: 15px 10px 25px -15px rgba(48, 52, 54, 0.54);
+    box-shadow: 15px 10px 25px -15px rgba(48, 52, 54, 0.54);
+    transition: 0.3s; }
 
 .about h2 {
   padding-top: 178px;
@@ -176,7 +181,7 @@
     -webkit-box-shadow: 15px 10px 25px -15px rgba(48, 52, 54, 0.54);
     -moz-box-shadow: 15px 10px 25px -15px rgba(48, 52, 54, 0.54);
     box-shadow: 15px 10px 25px -15px rgba(48, 52, 54, 0.54);
-    max-width: 378px;
+    max-width: 388px;
     width: 100%;
     transition: 0.5s; }
   .portfolio button {
@@ -242,5 +247,32 @@
 .owl-dot.active span {
   background-color: #212121;
   transition: 0.3s; }
+
+.Funfact {
+  background-color: #f6f6f6;
+  padding: 70px 0 65px;
+  margin-bottom: 154px; }
+  .Funfact .flex_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+      .Funfact .flex_container {
+        display: block; } }
+  .Funfact img {
+    margin-bottom: 30px;
+    position: relative;
+    left: 2px; }
+  .Funfact p {
+    color: #212121; }
+  .Funfact p:nth-last-child(1) {
+    margin-bottom: 30px;
+    font-size: 22px; }
+  .Funfact p:nth-last-child(2) {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 0; }
 
 /*# sourceMappingURL=style.css.map */
