@@ -96,7 +96,8 @@
 
 .service {
   background-color: #f6f6f6;
-  padding: 119px 0 68px; }
+  padding: 119px 0 148px;
+  margin-bottom: 117px; }
   .service h2 {
     color: #4d4d4d;
     font-size: 46px;
@@ -113,14 +114,12 @@
     margin-bottom: 15px; }
   .service p {
     font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 80px; }
-  .service .icon_desing {
-    margin-bottom: 0; }
+    font-weight: bold; }
 
 .service div div div:nth-last-child(5) {
   position: relative;
-  top: 16px; }
+  top: 16px;
+  margin-bottom: 80px; }
 
 .service div div div:nth-last-child(4) {
   position: relative;
@@ -274,5 +273,39 @@
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 0; }
+
+footer {
+  background-image: url("../img/back_footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  padding: 145px 0 30px; }
+  footer h2 {
+    color: #4d4d4d;
+    font-size: 46px;
+    line-height: 49px;
+    margin-bottom: 58px;
+    color: white; }
+  footer h2:before {
+    content: "";
+    display: block;
+    border-top: solid 4px #767676;
+    width: 60px;
+    margin: auto;
+    padding-bottom: 21px;
+    border-top: solid 4px rgba(255, 255, 255, 0.6); }
+  footer form input {
+    margin-bottom: 30px;
+    border-radius: 0 !important;
+    height: 57px !important;
+    font-size: 16px !important;
+    color: #212121 !important; }
+  footer form textarea {
+    resize: none;
+    height: 207px !important;
+    margin-bottom: 30px;
+    font-size: 16px !important;
+    color: #212121 !important;
+    border-radius: 0 !important; }
 
 /*# sourceMappingURL=style.css.map */

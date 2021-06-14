@@ -135,11 +135,12 @@
 
 .service{
   background-color: #f6f6f6;
-  padding: 119px 0 68px;
+  padding: 119px 0 148px;
+  margin-bottom: 117px;
   h2{
-  @include h2;
+    @include h2;
     margin-bottom: 62px;
-}
+  }
   h2:before{
     @include before;
   }
@@ -149,15 +150,12 @@
   p{
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 80px;
-  }
-  .icon_desing{
-    margin-bottom: 0;
   }
 }
 .service div div div:nth-last-child(5){
   position: relative;
   top: 16px;
+  margin-bottom: 80px;
 }
 .service div div div:nth-last-child(4){
   position: relative;
@@ -334,5 +332,39 @@
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 0;
+  }
+}
+
+footer{
+  background-image: url("../img/back_footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  padding: 145px 0 30px;
+  h2{
+    @include h2;
+    margin-bottom: 58px;
+    color: white;
+  }
+  h2:before{
+    @include before;
+    border-top: solid 4px rgba(255, 255, 255, 60%);
+  }
+  form{
+   input{
+     margin-bottom: 30px;
+     border-radius: 0!important;
+     height: 57px!important;
+     font-size: 16px!important;
+     color: #212121!important;
+   }
+    textarea{
+      resize: none;
+      height: 207px!important;
+      margin-bottom: 30px;
+      font-size: 16px!important;
+      color: #212121!important;
+      border-radius: 0!important;
+    }
   }
 }
