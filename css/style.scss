@@ -135,7 +135,7 @@
 
 .service{
   background-color: #f6f6f6;
-  padding: 119px 0 148px;
+  padding: 119px 0 82px;
   margin-bottom: 117px;
   h2{
     @include h2;
@@ -150,12 +150,15 @@
   p{
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 82px;
+  }
+  .icon_desing{
+    margin-bottom: 0;
   }
 }
 .service div div div:nth-last-child(5){
   position: relative;
   top: 16px;
-  margin-bottom: 80px;
 }
 .service div div div:nth-last-child(4){
   position: relative;
@@ -246,6 +249,9 @@
   h2{
     @include h2;
     margin-bottom: 58px;
+    @include max-screen(514px){
+      font-size: 36px;
+    }
   }
   h2:before{
     @include before;
@@ -324,8 +330,9 @@
     color: #212121;
   }
   p:nth-last-child(1){
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 22px;
+
   }
   p:nth-last-child(2){
     font-weight: bold;
@@ -340,7 +347,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  padding: 145px 0 30px;
+  padding-top: 145px;
   h2{
     @include h2;
     margin-bottom: 58px;
@@ -351,12 +358,14 @@ footer{
     border-top: solid 4px rgba(255, 255, 255, 60%);
   }
   form{
+    margin-bottom: 26px;
    input{
      margin-bottom: 30px;
      border-radius: 0!important;
      height: 57px!important;
      font-size: 16px!important;
      color: #212121!important;
+     border: none!important;
    }
     textarea{
       resize: none;
@@ -365,6 +374,54 @@ footer{
       font-size: 16px!important;
       color: #212121!important;
       border-radius: 0!important;
+      border: none!important;
     }
+    button{
+      padding: 20px 32px;
+      background-color: white;
+      border: none;
+      font-size: 16px;
+      color: #4d4d4d;
+      img{
+        width: 16px;
+        position: relative;
+        bottom: 2px;
+      }
+    }
+  }
+  form:after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 58px;
+  }
+  a{
+    display: inline-block;
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 9px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    i{
+      color: #4d4d4d;
+      font-size: 15px;
+    }
+  }
+  a:hover{
+    background-color: #0084b4;
+  }
+  a:hover i{
+    color: white;
+  }
+  p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
   }
 }
